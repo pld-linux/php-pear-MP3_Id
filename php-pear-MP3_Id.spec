@@ -12,7 +12,7 @@ License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	0fbb3ad34338f6afc777e25f5a197994
-URL:		http://pear.php.net/package/%{_pearname}/
+URL:		http://pear.php.net/package/MP3_Id/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
