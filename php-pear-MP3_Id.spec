@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          MP3
+%define		_class		MP3
 %define		_subclass	Id
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Read/Write MP3-Tags
-Summary(pl):	%{_pearname} - Odczyt/Zapis tagów MP3
+Summary:	%{_pearname} - read/write MP3-Tags
+Summary(pl):	%{_pearname} - odczyt/zapis tagów MP3
 Name:		php-pear-%{_pearname}
 Version:	1.1
 Release:	1
