@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The class offers methods for reading and writing information tags
 (version 1) in MP3 files
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ta klasa udostêpnia mo¿liwo¶æ odczytu i zapisu tagów (wersja 1) w
