@@ -8,7 +8,7 @@ Summary:	%{_pearname} - read/write MP3-Tags
 Summary(pl):	%{_pearname} - odczyt/zapis tagów MP3
 Name:		php-pear-%{_pearname}
 Version:	1.1.3
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -45,5 +45,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{php_pear_dir}/%{_class}
 %{php_pear_dir}/%{_class}/*.php
