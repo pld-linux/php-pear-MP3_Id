@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - read/write MP3-Tags
-Summary(pl):	%{_pearname} - odczyt/zapis tagów MP3
+Summary(pl.UTF-8):   %{_pearname} - odczyt/zapis tagÃ³w MP3
 Name:		php-pear-%{_pearname}
 Version:	1.2.0
 Release:	1
@@ -28,8 +28,8 @@ The class offers methods for reading and writing information tags
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa udostêpnia mo¿liwo¶æ odczytu i zapisu tagów (wersja 1) w
+%description -l pl.UTF-8
+Ta klasa udostÄ™pnia moÅ¼liwoÅ›Ä‡ odczytu i zapisu tagÃ³w (wersja 1) w
 plikach MP3.
 
 Ta klasa ma w PEAR status: %{_status}.
