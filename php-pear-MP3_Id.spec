@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - read/write MP3-Tags
-Summary(pl.UTF-8):   %{_pearname} - odczyt/zapis tagów MP3
+Summary(pl.UTF-8):	%{_pearname} - odczyt/zapis tagów MP3
 Name:		php-pear-%{_pearname}
 Version:	1.2.0
 Release:	1
