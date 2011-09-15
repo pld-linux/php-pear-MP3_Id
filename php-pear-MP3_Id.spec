@@ -1,18 +1,15 @@
-%include	/usr/lib/rpm/macros.php
-%define		_class		MP3
-%define		_subclass	Id
 %define		_status		stable
-%define		_pearname	%{_class}_%{_subclass}
-
+%define		_pearname	MP3_Id
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - read/write MP3-Tags
 Summary(pl.UTF-8):	%{_pearname} - odczyt/zapis tagów MP3
 Name:		php-pear-%{_pearname}
-Version:	1.2.1
+Version:	1.2.2
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	4fa9f8a9bb33a7ce4daec067f375b0de
+# Source0-md5:	fff90dbde55bd42e20f62c3c539ecc9e
 URL:		http://pear.php.net/package/MP3_Id/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -49,4 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
+%{php_pear_dir}/MP3/*.php
