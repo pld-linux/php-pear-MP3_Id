@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	MP3_Id
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - read/write MP3-Tags
 Summary(pl.UTF-8):	%{_pearname} - odczyt/zapis tagów MP3
 Name:		php-pear-%{_pearname}
